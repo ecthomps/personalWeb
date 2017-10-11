@@ -1,0 +1,174 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+ul.nav{
+    font-size: 13px;
+}
+
+/* .navbar-brand{
+    background-image: url(images/top_logo.png);
+} */
+
+footer{
+    background-color: #f74c3c;
+    padding-top: 150px;
+    padding-bottom: 30px;  
+}
+
+#get-involved{
+  background-color: #f5f5f5;  
+}
+
+.btn{
+    margin-top: 9px;
+}
+
+.jumbotron h1{
+    
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: inherit;
+}
+
+.jumbotron p{
+    margin-bottom: 30px;
+    padding: 0px 50px;
+    font-weight: 100;
+    font-size: 21px;
+}
+
+.jumbotron p{    
+    font-size: 21px;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+h1{    
+    font-weight: 500;
+    line-height: 1.1; 
+}
+
+ul.nav, .jumbotron h1{
+    font-family: 'Arvo', courier, serif;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    background-image: url("img/hero_image.jpg");
+    text-align: center; 
+    color: #ffffff;   
+}
+
+.btn-lg{
+    font-size: 36px;
+}
+
+img{
+    vertical-align: center;
+}
+
+.homepage{
+     text-align: center;
+     padding: 30px 0;
+
+}
+
+.homepage h2{
+    font-size: 30px;
+}
+
+.homepage h3{
+    font-size: 26px;
+}
+
+.homepage h2, .homepage h3{    
+    color: #e74c3c;
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;   
+    margin-top: 20px;
+    margin-bottom: 10px;    
+}
+
+.homepage p{
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.homepage a {
+    color: #e74c3c;
+}
+
+.homepage a:hover{
+    color: #e74c3c;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.homepage hr{
+    width: 160px;
+    border-top: 1px solid #e74c3c;
+    margin-top: 10px;
+}
+
+/*Responsive Styling*/
+
+@media (max-width: 1199px) { 
+    
+    .jumbotron h1{
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 991px) { 
+    
+    .jumbotron h1{
+        font-size: 44px;        
+    }
+
+    .jumbotron p{
+        padding: 0 10px;
+    }
+    
+    #get-involved .col-md-4{
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 767px) { 
+    
+    .jumbotron h1{
+        font-size: 24px;        
+    }
+
+    .jumbotron p{
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .btn{
+        margin-top: 0px;
+        margin-left: 12px;
+    }
+    
+    .btn-lg{
+        font-size: 18px;
+    }
+
+    .homepage p{
+        font-size: 18px;
+    }
+
+    footer img{
+        width: 80%;
+    }
+}

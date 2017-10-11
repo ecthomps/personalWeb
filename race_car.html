@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Race Car 2.0</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/car_styles.css">
+        <link rel="stylesheet" type="text/css" href="css/car_normalize.css">
+        
+    </head>
+    <body>
+        
+        <h1>jQuery Car Racr 2.0</h1>
+        
+        <input type="button" value="Race!" id="go">
+        <input type="button" value="Reset" id="reset">
+        
+        <div id="racetrack">
+            <img src="img/car1.png" alt="Green car" id="car1" class="car">
+            <img src="img/car2.png" alt="Red car" id="car2" class="car">
+        </div>
+        
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+        </div>
+
+        <!-- Load the CDN JQuery first -->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>');            
+        </script>
+        <!-- Custom JS -->
+        <script src="js/inter-script.js"></script>
+    </body>
+</html>

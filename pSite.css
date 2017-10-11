@@ -1,0 +1,157 @@
+/* Added Splash picture */
+/* splash.com --> for high quality photos
+    e.g <img src="https://source.unsplash.com/xrVDYZRGdw4"> 
+        <img src="https://source.unsplash.com/k_T9Zj3SE8k">
+*/
+
+/* Styles.css */
+html,
+body{
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+#cover{
+    background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), 
+                url('img/main_bg_pic.jpg') 
+                no-repeat top center fixed;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#header-p{
+    padding-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+#footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0px;
+}
+
+/* Carousel images */
+.carousel-item img{
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* max-width: 130vw;
+    max-height: 140vh;  */
+    max-height: 137vh;    
+}
+
+.inner-p{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* Align cover text center */
+/* #cover-caption{
+    width: 100%;
+} */
+
+/* styling the navbar */
+.navbar-right{
+    position: right;
+}
+
+/* buttons */
+.btn-success{
+    margin-left: -153px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+/* main-header */
+.display-3 {
+    font-size: 3.5rem;
+    font-weight: 1000;
+    line-height: 1.1;
+}
+
+.section-content{
+    padding: 5rem 0;
+}
+
+/* Footer Section */
+footer.nb-footer {
+    background: #222;
+    border-top: 4px solid #b78c33; 
+}
+
+footer.nb-footer .about {
+    margin: 0 auto;
+    margin-top: 0px;
+    max-width: 1170px;
+    text-align: center; 
+}
+
+footer.nb-footer .about p {
+    font-size: 13px;
+    color: #999;
+    margin-top: 30px; 
+}
+
+footer.nb-footer .about .social-media {
+    margin-top: 15px; 
+}
+
+footer.nb-footer .about .social-media ul li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #b78c33;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+footer.nb-footer .about .social-media ul li a:hover {
+    background: #b78c33;
+    color: #fff;
+    border-color: #b78c33; 
+} 
+
+ul.list-inline{
+    display: -webkit-inline-box;
+}
+
+#quote {
+    font-family: 'Germania One', cursive;
+    font-size: 1rem;
+}
+
+#contact{
+    font-family: 'Geo', sans-serif;
+    font-size: 2em;
+}
+
+#quote:hover{
+    color: #fff;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#contact:hover{
+    color: #fff;    
+}
+
+.list-inline li a{
+    margin: 0 5px;
+}
+
