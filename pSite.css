@@ -187,13 +187,13 @@ ul.list-inline{
         margin-left: -100px;
     } 
     
-    .section-content {
+    /* .section-content {
         padding: 1.5rem 0;
-    }
+    } */
 
-    .card-group{
-        display: initial;
-    }
+    /* .card-group{
+        display: flex;
+    } */
 }
 
 @media (min-width: 575px) { 
@@ -206,9 +206,9 @@ ul.list-inline{
             margin-left: 0px;
         } 
 
-        .card-group{
+        /* .card-group{
             display: initial;
-        }
+        } */
         
         .lead>p{
             margin-bottom: 1rem;
