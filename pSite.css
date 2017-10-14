@@ -181,7 +181,7 @@ ul.list-inline{
  } */
 
  /* small devices */
-@media (min-width: 766px) { 
+@media (max-width: 766px) { 
 
     .btn-success{
         margin-left: -100px;
@@ -196,7 +196,7 @@ ul.list-inline{
     } */
 }
 
-@media (min-width: 575px) { 
+@media (max-width: 575px) { 
     
         .section-content {
             padding: 1.5rem 0;
