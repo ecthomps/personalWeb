@@ -82,8 +82,14 @@ img{
     line-height: 1.1;
 }
 
+/*  section content */
 .section-content{
     padding: 5rem 0;
+}
+
+/* card text */
+.card-block {
+    padding: 10px 7px;
 }
 
 /* Footer Section */
