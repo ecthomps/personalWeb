@@ -3,6 +3,11 @@ body{
     height: 100%;
 }
 
+#text-unmuted{
+    font-family: 'Nova Flat', cursive;
+    color: #fff;
+}
+
 img{
     max-width: 100%;
 }
