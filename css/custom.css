@@ -62,7 +62,7 @@ ul.nav, .jumbotron h1{
 }
 
 .jumbotron{
-    background-image: url("img/hero_image.jpg");
+    background-image: url("../img/hero_image.jpg");
     text-align: center; 
     color: #ffffff;   
 }

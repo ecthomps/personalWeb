@@ -31,7 +31,7 @@ img{
 /* Jumbotron */
 .jumbotron{
     /* Photo by Kevin Bhagat on Unsplash */
-    background: url('img/kevin-bhagat-343433.jpg') 
+    background: url('../img/kevin-bhagat-343433.jpg') 
                 no-repeat center center fixed;
     background-size: cover;
     position: relative;
