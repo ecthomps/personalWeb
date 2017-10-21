@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todo List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- External links -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" 
+              rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+              integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+              crossorigin="anonymous">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="css/todos.css">
+    </head>
+    <body>
+    
+        <div id="container">
+            <h1>To-Do List<i class="fa fa-lg fa-pencil-square" aria-hidden="true"></i></h1>
+            <input type="text" placeholder="ADD NEW TODO">
+
+            <ul>
+                <li><span><i class="fa fa-trash"></i></span> Buy new robes</li>
+                <li><span><i class="fa fa-trash"></i></span> Visit Macedonia</li>
+                <li><span><i class="fa fa-trash"></i></span> Go to Web class</li>
+            </ul>
+        </div>
+
+        
+        <!-- Load the CDN JQuery first -->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>
+            window.jQuery || document.write("<script src='js/lib/jquery-3.2.1.min.js'><\/script>")    
+        </script>
+        <!-- Custom JS -->
+        <script src="js/todos.js"></script>
+    </body>
+</html>

@@ -3,13 +3,27 @@ body{
     height: 100%;
 }
 
+img{
+    max-width: 100%;
+}
+
 #text-unmuted{
     font-family: 'Nova Flat', cursive;
     color: #fff;
 }
 
-img{
-    max-width: 100%;
+#text-finger{
+    font-family: 'Bubblegum Sans', cursive;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+    color: #4d41f4;
+}
+
+#cat-love{
+    font-family: 'Yatra One', cursive;
+    color: #cea18b;
 }
 
 /* navbar brand */
@@ -38,6 +52,7 @@ img{
     height: 50%;
     overflow: hidden;
 }
+
 
 /*Responsive Styling*/
 
